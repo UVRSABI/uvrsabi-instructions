@@ -21,4 +21,3 @@ Contents
 
    instructions
    dataCollection
-   usage
