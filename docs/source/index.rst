@@ -18,6 +18,5 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Data Collection
+
    Instructions
