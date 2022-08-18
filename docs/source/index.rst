@@ -20,4 +20,5 @@ Contents
 .. toctree::
 
    instructions
+   dataCollection
    usage
