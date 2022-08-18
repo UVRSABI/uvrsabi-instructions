@@ -19,5 +19,5 @@ Contents
 
 .. toctree::
 
-   Data Collection
-   Instructions
+   :caption: Data Collection
+   :caption: Instructions
