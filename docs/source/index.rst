@@ -19,5 +19,5 @@ Contents
 
 .. toctree::
 
-   instructions
    dataCollection
+   instructions
