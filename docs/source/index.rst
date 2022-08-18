@@ -19,4 +19,4 @@ Contents
 
 .. toctree::
 
-   :caption: instructions
+   instructions
