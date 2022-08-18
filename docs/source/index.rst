@@ -20,4 +20,4 @@ Contents
 .. toctree::
 
    :caption: Data Collection
-   :caption: Instructions
+   Instructions
