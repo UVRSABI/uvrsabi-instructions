@@ -17,3 +17,13 @@ Fig.(a) shows the frontal face of the two adjacent buildings for which data was 
 Fig.(b) shows that the UAV was flown in-between the two buildings along a path parallel to the facade with a forward-facing camera. This mode enables the operators to calculate distances when buildings have irregular shapes. 
 
 Fig.(c) shows the roof mode, where UAV was flown at a fixed altitude with a downward-facing camera so as to capture the rooftops of the subject buildings. The roof mode helps in tackling occlusions due to vegetation and other physical structures.
+
+
+Plan Shape and Roof Area Estimation
+-------------------------------------
+For estimating the plan shape and roof area, the drone was flown with the downward-facing camera over the roof, at constant height.
+
+
+Roof Layout Estimation
+-------------------------------------
+For estimating the plan shape and roof area, the drone was flown with the downward-facing camera over the roof, at constant height.
