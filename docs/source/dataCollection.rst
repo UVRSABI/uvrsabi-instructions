@@ -18,6 +18,11 @@ Fig.(b) shows that the UAV was flown in-between the two buildings along a path p
 
 Fig.(c) shows the roof mode, where UAV was flown at a fixed altitude with a downward-facing camera so as to capture the rooftops of the subject buildings. The roof mode helps in tackling occlusions due to vegetation and other physical structures.
 
+.. video:: videos/dbb1.mp4
+   :width: 500
+   :height: 300
+   :autoplay:
+   :nocontrols:
 
 Plan Shape and Roof Area Estimation
 -------------------------------------
