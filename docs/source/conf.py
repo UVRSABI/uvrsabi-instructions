@@ -17,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    "sphinxcontrib.youtube",
 ]
 
 intersphinx_mapping = {
@@ -33,3 +34,16 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+youtube_cmd = (
+    r"\newcommand{\sphinxcontribyoutube}[3]"
+    r"{\begin{figure}\sphinxincludegraphics{{#2}.jpg}\caption{\url{#1#2#3}}\end{figure}}"
+    "\n"
+)
+vimeo_cmd = (
+    r"\newcommand{\sphinxcontribvimeo}[3]"
+    r"{\begin{figure}\sphinxincludegraphics{{#2}.jpg}\caption{\url{#1#2#3}}\end{figure}}"
+    "\n"
+)
+
+latex_elements = {"preamble": youtube_cmd + vimeo_cmd}
