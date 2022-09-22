@@ -9,19 +9,39 @@ Installing Colmap
 -----------------
 Another dependency for the package is colmap which needs to be installed as follows: `Colmap Installation <https://colmap.github.io/install.html>`_
 
-Installing the UVRSABI env
+Installing the UVRSABI package
 -----------------
 
-Clone the `Github repository <https://github.com/UVRSABI/UVRSABI-Code.git>`_.
-Once all the above dependencies have been installed, create a conda environment by running the following command:-
+Clone the `Github repository <https://github.com/UVRSABI/UVRSABI-Code.git>`_ by running the following commands:
+
+..  code-block:: bash
+
+	$ git clone --recurse-submodules https://github.com/UVRSABI/UVRSABI-Code.git
+
+Once all the above dependencies have been installed, create a conda environment by running the following commands:
 
 ..  code-block:: bash
 
 	$ cd UVRSABI-Code/
 	$ conda env create -f uvrsabi.yaml
-    
+        $ conda activate uvrsabi
 
-Now you should be able to use the package on your dataset :)
+We also require pre-trained weights to segment rooftops and detect objects. These can be downloaded by running the following command:
+    
+..  code-block:: bash
+
+	$ cd UVRSABI-Code/
+	$ ./weights.sh
+
+The GUI can be launched by running the following command:
+
+..  code-block:: bash
+
+	$ cd UVRSABI-Code/
+	$ python gui.py
+
+
+The :doc:`instructions` page can be referred to for more details on how to use the GUI.
 
 .. Follow the instructions mentioned on the `official website <https://docs.docker.com/get-docker>`_ 
 .. to install Docker on your system. The installation can be verified by running the following commands in the terminal

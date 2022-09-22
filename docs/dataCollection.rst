@@ -81,10 +81,15 @@ Plan Shape and Roof Area Estimation
 For estimating the plan shape and roof area, the UAV was flown with a downward-facing camera over the roof at 
 constant height. Our algorithm accounts for both orthoginal and non-orthogonal views of the roof.
 
-.. raw:: html
+.. _intermediateresults:
+.. figure:: images/planshape.jpg
+    :align: center
+    :height: 315
+    :width: 560
+    :figclass: w
+    :alt: intermediateresults
 
-    <p align = "center"> <iframe width="560" height="315" src="https://drive.google.com/file/d/1gUaVxP3mCojO_38gcAQgVEdR_Hw0G9a2/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </p> 
-    <p align = "center"> Data Collection for Plan-shape Estimation and Roof Area Calculation </p>
+    Data Collection for Plan Shape and Roof Area Estimation
 
 Roof Layout Estimation
 -------------------------------------

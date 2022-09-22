@@ -7,7 +7,7 @@ instructions mentioned on the :doc:`previous page <installation>` and has succes
 We make use of a GUI Application to run the software. :numref:`gui` shows the layout of the GUI.
 
 .. _gui:
-.. figure:: images/gui.png
+.. figure:: images/main_gui.png
     :align: center
     :scale: 30%
     :figclass: w
@@ -15,33 +15,32 @@ We make use of a GUI Application to run the software. :numref:`gui` shows the la
 
     GUI of the software
 
-The user needs to select the video file to be processed by clicking on the 
-*Video Path* option and navigating to the video file as indicated in :numref:`videopath`.
-
-.. _videopath:
-.. figure:: images/videopath.png
-    :align: center
-    :scale: 30%
-    :figclass: w
-    :alt: Video Path
-
-    Selecting the video file
+The user needs to select the video file and the log file to be processed by clicking on the 
+*Video Path* and *Log File* options and then navigating to the respective files. In case of Roof Area Estimation,
+user needs to select the directory that contains all the test images by using the *Images path* option.
 
 .. note::
 
    The video should be collected as per the instructions mentioned in the :doc:`Data Collection <dataCollection>` 
-   section.
+   section. The log file formats have been described in the individual module sections. 
 
 Once the video file is selected, the user needs to select the module to be used for processing the video. We have
-made provisions to display significant intermediate results of the implemented algorithms (refer :numref:`intermediateresults`). The user may skip to the
-final results as well. 
+made provisions to display significant intermediate results of the implemented algorithms (refer :numref:`intermediateresults`).
+After all the intermediate results have been displayed, the user can click on *Final Results* option to see the final results.
+Parallely, logs will be displayed to keep the user aware of the progress.
 
 .. _intermediateresults:
-.. figure:: images/intermediateresults.png
+.. figure:: images/intermediate.png
     :align: center
-    :scale: 50%
+    :scale: 30%
     :figclass: w
-    :alt: Video Path
+    :alt: intermediateresults
 
-    Displaying the architecture of the  Roof Layout Estimation module. The intermediate and the final results can be
-    viewed by selecting the respective options.
+    Displaying the architecture of the  Roof Layout Estimation module. The display will be refreshed with the latest intermediate result. 
+
+Video and Log File Formats
+----------------------------
+
+* **Distance between Adajacent Buildings**: The log file should be of DJI log format. A sample log can be found `here <https://docs.google.com/spreadsheets/d/1S4T-xyDOT8UtDPjyFi-bwmpzHDkqjiNp/edit?usp=sharing&ouid=100052733914035235125&rtpof=true&sd=true>`_. The corresponding video should be collected as per the instructions mentioned in :doc:`dataCollection`.
+* **Roof Area Estimation**: A sample log file has been provided `here <https://docs.google.com/spreadsheets/d/1BtMTbdWcIWz-nNOivYxIkYNkjrjEFxJ3s9H2-Lv8qi8/edit?usp=sharing>`_. The corresponding images should be collected as per the instructions mentioned in :doc:`dataCollection`.
+* **Roof Layout Estimation**: This module does not require any log file. The corresponding video should be collected as per the instructions mentioned in :doc:`dataCollection`.
